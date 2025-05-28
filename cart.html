@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS\normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS\all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Cart | Exclusive E-Commerce Website</title>
+  </head>
+  <body>
+    <div class="top-nav">
+      <div class="container top-nav-container">
+        <div class="top-nav-wrapper">
+          <p class="top-nav-p">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="top-nav-link">SHOPNow</a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container nav-container">
+        <a href="#" class="nav-logo">Exclusive</a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+          <li class="nav-item">
+            <a href="./sign-up.html" class="nav-link">Sign Up</a>
+          </li>
+        </ul>
+        <div class="nav-items">
+          <form action="" class="nav-form">
+            <input
+              type="text"
+              class="nav-input"
+              placeholder="What are you looking for?"
+            />
+            <i class="fa-solid fa-magnifying-glass nav-search"></i>
+          </form>
+          <i class="fa-regular fa-heart nav-heart"></i>
+          <a href="./cart.html" class="cart-icon-link">
+            <i class="fa-solid fa-cart-shopping nav-cart"></i>
+          </a>
+        </div>
+        <span class="list-icon">
+          <i class="fa-solid fa-list"></i>
+        </span>
+      </div>
+    </nav>
+    <nav class="mobile-nav mobile-nav-hide">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a href="./index.html" class="mobile-nav-link">Home</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link">About</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link">Contact Us</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="./sign-up.html" class="mobile-nav-link">Sign Up</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <table class="cart">
+          <thead class="cart-header">
+            <tr>
+              <th class="cart-header-img">Product Image</th>
+              <th class="cart-header-title">Title</th>
+              <th class="cart-header-title">Price</th>
+              <th class="cart-header-title">Quantity</th>
+              <th class="cart-header-title">Subtotal</th>
+              <th class="cart-header-title">Delete Product</th>
+            </tr>
+          </thead>
+          <tbody class="cart-items"></tbody>
+        </table>
+        <div class="cart-total">
+          <span>Total:</span>
+          <span class="cart-total-price">$0</span>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-item">
+          <a href="#" class="footer-logo">Exclusive</a>
+          <p class="footer-item-p">
+            <b>Subscribe</b><br />
+            Get 10% off your first order
+          </p>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer-item-title">Support</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">exclusive@gmail.com</li>
+            <li class="footer-list-item">+88015-88888-9999</li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer-item-title">Account</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">My Account</li>
+            <li class="footer-list-item">Login / Register</li>
+            <li class="footer-list-item">Cart</li>
+            <li class="footer-list-item">Wishlist</li>
+            <li class="footer-list-item">Shop</li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer-item-title">Quick Links</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">Privacy Policy</li>
+            <li class="footer-list-item">Terms Of Use</li>
+            <li class="footer-list-item">FAQ</li>
+            <li class="footer-list-item">Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="footer-copyright">
+            &copy;Copyright Exclusive 2023.All right reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./Js/cart.js"></script>
+  </body>
+</html>

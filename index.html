@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS\normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS\all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Home | Exclusive E-Commerce Website</title>
+  </head>
+  <body>
+    <div class="top-nav">
+      <div class="container top-nav-container">
+        <div class="top-nav-wrapper">
+          <p class="top-nav-p">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="top-nav-link">SHOPNow</a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container nav-container">
+        <a href="#" class="nav-logo">Exclusive</a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+          <li class="nav-item">
+            <a href="./sign-up.html" class="nav-link">Sign Up</a>
+          </li>
+        </ul>
+        <div class="nav-items">
+          <form action="" class="nav-form">
+            <input
+              type="text"
+              class="nav-input"
+              placeholder="What are you looking for?"
+            />
+            <i class="fa-solid fa-magnifying-glass nav-search"></i>
+          </form>
+          <i class="fa-regular fa-heart nav-heart"></i>
+          <a href="./cart.html" class="cart-icon-link">
+            <i class="fa-solid fa-cart-shopping nav-cart"></i>
+          </a>
+        </div>
+        <span class="list-icon">
+          <i class="fa-solid fa-list"></i>
+        </span>
+      </div>
+    </nav>
+    <nav class="mobile-nav mobile-nav-hide">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a href="./index.html" class="mobile-nav-link">Home</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link">About</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#" class="mobile-nav-link">Contact Us</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="./sign-up.html" class="mobile-nav-link">Sign Up</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <div class="container header-container">
+        <ul class="header-filter">
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Woman's Fashion</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Men's Fashion</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Electronics</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Home & Lifestyle</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Medicine</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Sports & Outdoor</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Baby's & Toys</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Groceries & Pets</a>
+          </li>
+          <li class="header-filter-item">
+            <a href="#" class="header-filter-link">Health & Beauty</a>
+          </li>
+        </ul>
+        <img src="./images/header.png" class="header-img" />
+      </div>
+    </header>
+    <section class="section">
+      <div class="container">
+        <div class="section-category">
+          <p class="section-category-p">Today's</p>
+        </div>
+        <div class="section-header">
+          <h3 class="section-title">Flash Sale</h3>
+          <div id="countdown-container">
+            <div class="time-labels">
+              <span>Days</span>
+              <span>Hours</span>
+              <span>Minutes</span>
+              <span>Seconds</span>
+            </div>
+            <div id="demo" class="time-numbers">
+              <span id="days">00</span>
+              <span class="separator">:</span>
+              <span id="hours">00</span>
+              <span class="separator">:</span>
+              <span id="minutes">00</span>
+              <span class="separator">:</span>
+              <span id="seconds">00</span>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-1.png" class="card-img" />
+                  <div class="card-tag">-40%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
+                  <p class="card-price">$120</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(88)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="1"
+                    data-image="./images/items/item-1.png"
+                    data-title="HAVIT HV-G92 Gamepad"
+                    data-price="120"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-2.png" class="card-img" />
+                  <div class="card-tag">-35%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">AK-900 Wired Keyboard</h3>
+                  <p class="card-price">$960</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(75)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="2"
+                    data-image="./images/items/item-2.png"
+                    data-title="AK-900 Wired Keyboard"
+                    data-price="960"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-3.png" class="card-img" />
+                  <div class="card-tag">-30%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">IPS LCD Gaming Monitor</h3>
+                  <p class="card-price">$370</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(99)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="3"
+                    data-image="./images/items/item-3.png"
+                    data-title="IPS LCD Gaming Monitor"
+                    data-price="370"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-4.png" class="card-img" />
+                  <div class="card-tag">-25%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">S-Series Comfort Chair</h3>
+                  <p class="card-price">$375</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(99)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="4"
+                    data-image="./images/items/item-4.png"
+                    data-title="S-Series Comfort Chair"
+                    data-price="375"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-1.png" class="card-img" />
+                  <div class="card-tag">-40%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">HAVIT HV-G92 Gamepad</h3>
+                  <p class="card-price">$120</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(88)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="1"
+                    data-image="./images/items/item-1.png"
+                    data-title="HAVIT HV-G92 Gamepad"
+                    data-price="120"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-2.png" class="card-img" />
+                  <div class="card-tag">-35%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">AK-900 Wired Keyboard</h3>
+                  <p class="card-price">$960</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(75)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="2"
+                    data-image="./images/items/item-2.png"
+                    data-title="AK-900 Wired Keyboard"
+                    data-price="960"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-3.png" class="card-img" />
+                  <div class="card-tag">-30%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">IPS LCD Gaming Monitor</h3>
+                  <p class="card-price">$370</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(99)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="3"
+                    data-image="./images/items/item-3.png"
+                    data-title="IPS LCD Gaming Monitor"
+                    data-price="370"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-4.png" class="card-img" />
+                  <div class="card-tag">-25%</div>
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">S-Series Comfort Chair</h3>
+                  <p class="card-price">$375</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(99)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="4"
+                    data-image="./images/items/item-4.png"
+                    data-title="S-Series Comfort Chair"
+                    data-price="375"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="section-btn">
+          <a href="#" class="section-btn-a">View All Products</a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-category">
+          <p class="section-category-p">Categories</p>
+        </div>
+        <div class="section-header">
+          <h3 class="section-title">Browse By Category</h3>
+        </div>
+        <div class="categories">
+          <div class="category">
+            <i class="fa-solid fa-mobile-screen category-icon"></i>
+            <p class="category-name">Phones</p>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-computer category-icon"></i>
+            <p class="category-name">Computers</p>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-stopwatch category-icon"></i>
+            <p class="category-name">Smartwatch</p>
+          </div>
+          <div class="category active">
+            <i class="fa-solid fa-camera category-icon"></i>
+            <p class="category-name">Camera</p>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-headphones category-icon"></i>
+            <p class="category-name">Headphones</p>
+          </div>
+          <div class="category">
+            <i class="fa-solid fa-gamepad category-icon"></i>
+            <p class="category-name">Gaming</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-category">
+          <p class="section-category-p">This Month</p>
+        </div>
+        <div class="section-header">
+          <h3 class="section-title">Best Selling Products</h3>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-5.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">The north coat</h3>
+                  <p class="card-price">$260</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(65)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="5"
+                    data-image="./images/items/item-5.png"
+                    data-title="The north coat"
+                    data-price="260"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-6.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">RGB liquid CPU Cooler</h3>
+                  <p class="card-price">$160</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(75)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="6"
+                    data-image="./images/items/item-6.png"
+                    data-title="RGB liquid CPU Cooler"
+                    data-price="160"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-7.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Gucci duffle bag</h3>
+                  <p class="card-price">$960</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(65)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="7"
+                    data-image="./images/items/item-7.png"
+                    data-title="Gucci duffle bag"
+                    data-price="960"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-8.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Small BookSelf</h3>
+                  <p class="card-price">$360</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(99)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="8"
+                    data-image="./images/items/item-8.png"
+                    data-title="Small BookSelf"
+                    data-price="360"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-5.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">The north coat</h3>
+                  <p class="card-price">$260</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(65)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="5"
+                    data-image="./images/items/item-5.png"
+                    data-title="The north coat"
+                    data-price="260"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-6.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">RGB liquid CPU Cooler</h3>
+                  <p class="card-price">$160</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(75)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="6"
+                    data-image="./images/items/item-6.png"
+                    data-title="RGB liquid CPU Cooler"
+                    data-price="160"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-7.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Gucci duffle bag</h3>
+                  <p class="card-price">$960</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(65)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="7"
+                    data-image="./images/items/item-7.png"
+                    data-title="Gucci duffle bag"
+                    data-price="960"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-top">
+                  <img src="./images/items/item-8.png" class="card-img" />
+                  <div class="card-top-icons">
+                    <i class="fa-regular fa-heart card-top-icon"></i>
+                    <i class="fa-solid fa-eye card-top-icon"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Small BookSelf</h3>
+                  <p class="card-price">$360</p>
+                  <div class="card-ratings">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                      <i class="fa-solid fa-star filled-star"></i>
+                    </div>
+                    <p class="card-rating-numbers">(99)</p>
+                  </div>
+                  <button
+                    class="add-to-cart"
+                    data-id="8"
+                    data-image="./images/items/item-8.png"
+                    data-title="Small BookSelf"
+                    data-price="360"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="section-btn">
+          <a href="#" class="section-btn-a">View All Products</a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="trending">
+          <div class="trending-content">
+            <p class="trending-p">Categories</p>
+            <h2 class="trending-title">Enhance Your Music Experience</h2>
+            <a href="#" class="trending-btn">Buy Now!</a>
+          </div>
+          <img src="./images/speaker.png" alt="" class="trending-img" />
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-category">
+          <p class="section-category-p">Our Products</p>
+        </div>
+        <div class="section-header">
+          <h3 class="section-title">Explore Our Products</h3>
+        </div>
+        <div class="products">
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-9.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Breed Dry Dog Food</h3>
+              <p class="card-price">$100</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="card-rating-numbers">(35)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="9"
+                data-image="./images/items/item-9.png"
+                data-title="Breed Dry Dog Food"
+                data-price="100"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-10.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">CANON EOS DSLR Camera</h3>
+              <p class="card-price">$360</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="card-rating-numbers">(95)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="10"
+                data-image="./images/items/item-10.png"
+                data-title="CANON EOS DSLR Camera"
+                data-price="360"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-11.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">ASUS FHD Gaming Laptop</h3>
+              <p class="card-price">$700</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                </div>
+                <p class="card-rating-numbers">(325)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="11"
+                data-image="./images/items/item-11.png"
+                data-title="ASUS FHD Gaming Laptop"
+                data-price="700"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-16.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Curology Product Set</h3>
+              <p class="card-price">$500</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="card-rating-numbers">(145)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="16"
+                data-image="./images/items/item-16.png"
+                data-title="Curology Product Set"
+                data-price="500"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-12.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Kids Electric Car</h3>
+              <p class="card-price">$960</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                </div>
+                <p class="card-rating-numbers">(65)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="12"
+                data-image="./images/items/item-12.png"
+                data-title="Kids Electric Car"
+                data-price="960"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-13.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Jr. Zoom Soccer Cleats</h3>
+              <p class="card-price">$1160</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                </div>
+                <p class="card-rating-numbers">(99)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="13"
+                data-image="./images/items/item-13.png"
+                data-title="Jr. Zoom Soccer Cleats"
+                data-price="1160"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-14.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">GP11 Shooter USB Gamepad</h3>
+              <p class="card-price">$660</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                </div>
+                <p class="card-rating-numbers">(55)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="14"
+                data-image="./images/items/item-14.png"
+                data-title="GP11 Shooter USB Gamepad"
+                data-price="660"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <img src="./images/items/item-15.png" class="card-img" />
+              <div class="card-top-icons">
+                <i class="fa-regular fa-heart card-top-icon"></i>
+                <i class="fa-solid fa-eye card-top-icon"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Quilted Satin Jacket</h3>
+              <p class="card-price">$500</p>
+              <div class="card-ratings">
+                <div class="card-stars">
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                  <i class="fa-solid fa-star filled-star"></i>
+                </div>
+                <p class="card-rating-numbers">(90)</p>
+              </div>
+              <button
+                class="add-to-cart"
+                data-id="15"
+                data-image="./images/items/item-15.png"
+                data-title="Quilted Satin Jacket"
+                data-price="500"
+              >
+                Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="section-btn">
+          <a href="#" class="section-btn-a">View All Products</a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-category">
+          <p class="section-category-p">Featured</p>
+        </div>
+        <div class="section-header">
+          <h3 class="section-title">New Arrival</h3>
+        </div>
+        <div class="gellery">
+          <div class="gellery-item gellery-item-1">
+            <img
+              src="./images/Gellery/gallery-1.png"
+              alt="New Arrival Items"
+              class="gellery-item-img"
+            />
+            <div class="gellery-item-content">
+              <h3 class="gellery-item-title">PlayStation 5</h3>
+              <p class="gellery-item-p">
+                Black and White version of the PS5 coming out on sale.
+              </p>
+              <a href="#" class="gellery-item-link">Shop Now</a>
+            </div>
+          </div>
+          <div class="gellery-item gellery-item-2">
+            <img
+              src="./images/Gellery/gallery-2.png"
+              alt="New Arrival Items"
+              class="gellery-item-img"
+            />
+            <div class="gellery-item-content">
+              <h3 class="gellery-item-title">Women's Collections</h3>
+              <p class="gellery-item-p">
+                Featured woman collections that give you another vibe.
+              </p>
+              <a href="#" class="gellery-item-link">Shop Now</a>
+            </div>
+          </div>
+          <div class="gellery-item gellery-item-3">
+            <img
+              src="./images/Gellery/gallery-3.png"
+              alt="New Arrival Items"
+              class="gellery-item-img"
+            />
+            <div class="gellery-item-content">
+              <h3 class="gellery-item-title">Speakers</h3>
+              <p class="gellery-item-p">Amazon wireless speakers</p>
+              <a href="#" class="gellery-item-link">Shop Now</a>
+            </div>
+          </div>
+          <div class="gellery-item gellery-item-4">
+            <img
+              src="./images/Gellery/gallery-4.png"
+              alt="New Arrival Items"
+              class="gellery-item-img"
+            />
+            <div class="gellery-item-content">
+              <h3 class="gellery-item-title">Perfume</h3>
+              <p class="gellery-item-p">GUCCI INTENSE OUD EDP</p>
+              <a href="#" class="gellery-item-link">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container services-container">
+        <div class="service">
+          <img src="./images/Icons/service-1.png" alt="" class="service-img" />
+          <h3 class="service-title">FREE AND FAST DELIVERY</h3>
+          <p class="service-p">Free delivery for all orders over $140</p>
+        </div>
+        <div class="service">
+          <img src="./images/Icons/service-2.png" alt="" class="service-img" />
+          <h3 class="service-title">24/7 CUSTOMER SERVICE</h3>
+          <p class="service-p">Friendly 24/7 customer support</p>
+        </div>
+        <div class="service">
+          <img src="./images/Icons/service-3.png" alt="" class="service-img" />
+          <h3 class="service-title">MONEY BACK GUARANTEE</h3>
+          <p class="service-p">We reurn money within 30 days</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-item">
+          <a href="#" class="footer-logo">Exclusive</a>
+          <p class="footer-item-p">
+            <b>Subscribe</b><br />
+            Get 10% off your first order
+          </p>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer-item-title">Support</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">exclusive@gmail.com</li>
+            <li class="footer-list-item">+88015-88888-9999</li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer-item-title">Account</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">My Account</li>
+            <li class="footer-list-item">Login / Register</li>
+            <li class="footer-list-item">Cart</li>
+            <li class="footer-list-item">Wishlist</li>
+            <li class="footer-list-item">Shop</li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3 class="footer-item-title">Quick Links</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">Privacy Policy</li>
+            <li class="footer-list-item">Terms Of Use</li>
+            <li class="footer-list-item">FAQ</li>
+            <li class="footer-list-item">Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="footer-copyright">
+            &copy;Copyright Exclusive 2023.All right reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
