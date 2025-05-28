@@ -25,3 +25,7 @@ A fully responsive and visually engaging e-commerce website built using **HTML**
 | JavaScript   | Dynamic interactions and logic         |
 | SwiperJS     | Responsive and touch-friendly sliders  |
 | Font Awesome | Beautiful icons and visual elements    |
+
+## 📽️ Video Demo
+
+🎬 [Click here to watch the demo video](https://drive.google.com/file/d/1TZ0t4bT17bsFLwKljeU1q8S1mROTfruS/view?usp=sharing)
